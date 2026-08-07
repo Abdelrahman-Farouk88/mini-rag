@@ -87,6 +87,7 @@ async def process_endpoint(project_id: str, process_request: ProcessRequest):
         content = {
               "signal" : ResponseSignal.PROCESSING_FAILED.value
           }
+    print(process_request.model_dump())
     return file_chunks
       
             
