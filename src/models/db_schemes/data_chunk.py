@@ -1,9 +1,14 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from typing import Optional
 from bson.objectid import ObjectId
 
 
 class DataChunk(BaseModel):
+
+    model_config = ConfigDict(
+        arbitrary_types_allowed=True,
+        populate_by_name=True
+    )
 
     id: Optional[ObjectId] = Field(
         None,
@@ -24,6 +29,14 @@ class DataChunk(BaseModel):
 
     chunk_project_id: ObjectId
 
-    class Config:
-        arbitrary_types_allowed = True
-        allow_population_by_field_name = True
+    @classmethod
+    def get_indexes(cls):
+        return [
+            {
+                "key": [
+                    ("chunk_project_id", 1)
+                ],
+                "name": "chunk_project_id_index_1",
+                "unique": False
+            }
+        ]
