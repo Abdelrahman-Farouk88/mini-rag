@@ -21,6 +21,8 @@ class DataChunk(BaseModel):
     )
 
     chunk_metadata: dict
+    
+    chunk_asset_id: ObjectId
 
     chunk_order: int = Field(
         ...,

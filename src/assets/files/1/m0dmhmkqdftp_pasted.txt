@@ -1,0 +1,542 @@
+🎯 THE ULTIMATE AI ENGINEER ROADMAP
+One Path. Best Resources. Day by Day.
+📋 OVERVIEW
+Phase	Duration	Focus	Main Resources
+Phase 1	Months 1-3	Foundations	Python Crash Course + 3Blue1Brown + Kaggle
+Phase 2	Months 4-6	Machine Learning	Hands-On ML Book + StatQuest + Kaggle
+Phase 3	Months 7-9	Deep Learning & LLMs	Deep Learning with Python + Fast.ai + Hugging Face
+Phase 4	Months 10-12	Production & Job Search	Designing ML Systems + Chip Huyen Interview Book
+🚀 PHASE 1: FOUNDATIONS (Months 1-3)
+MONTH 1: PYTHON MASTERY
+Week 1: Python Basics
+Day	Topic	Resource	Duration	Action
+1	Setup + Variables + Data Types	📘 Python Crash Course Ch 1-2	3 hrs	Install Python, VS Code. Type all examples
+2	Strings & Numbers	📘 Python Crash Course Ch 2 (complete)	3 hrs	Complete all "Try It Yourself" exercises
+3	Lists	📘 Python Crash Course Ch 3	3 hrs	Build a shopping list program
+4	Working with Lists	📘 Python Crash Course Ch 4	3 hrs	Practice list comprehensions
+5	If Statements	📘 Python Crash Course Ch 5	3 hrs	Build a simple quiz game
+6	Dictionaries	📘 Python Crash Course Ch 6	3 hrs	Create a contact book
+7	Review + Practice	🌐 HackerRank Python	4 hrs	Solve 15 easy problems
+Week 2: Python Intermediate
+Day	Topic	Resource	Duration	Action
+8	User Input & While Loops	📘 Python Crash Course Ch 7	3 hrs	Build a number guessing game
+9	Functions	📘 Python Crash Course Ch 8	4 hrs	Critical chapter - master this
+10	Functions (continued)	📘 Python Crash Course Ch 8 exercises	3 hrs	Complete all exercises
+11	Classes (Part 1)	📘 Python Crash Course Ch 9	4 hrs	Create a Dog and Car class
+12	Classes (Part 2)	📘 Python Crash Course Ch 9	3 hrs	Practice inheritance
+13	Files & Exceptions	📘 Python Crash Course Ch 10	3 hrs	Build a file reader/writer
+14	Project: Contact Manager	Practice	5 hrs	OOP project with file storage
+Week 3: Python Advanced + Git
+Day	Topic	Resource	Duration	Action
+15	Testing Your Code	📘 Python Crash Course Ch 11	3 hrs	Write tests for previous projects
+16	Advanced OOP	🎥 Corey Schafer OOP Playlist Videos 1-3	3 hrs	Class variables, classmethods
+17	Advanced OOP	🎥 Corey Schafer OOP Videos 4-6	3 hrs	Special methods, decorators
+18	Git Fundamentals	🎥 [Git & GitHub - Traversy Media](https://youtube.com/watch? v=SWYqp7iY_Tc)	2 hrs	Create first repo
+19	Git Practice	🌐 Learn Git Branching	3 hrs	Complete main + remote sections
+20	GitHub Profile Setup	🌐 GitHub.com	3 hrs	Create profile README, push projects
+21	Project: Library System	Practice	5 hrs	Full OOP project, push to GitHub
+Week 4: Development Environment
+Day	Topic	Resource	Duration	Action
+22	Virtual Environments	🎥 Corey Schafer - venv	2 hrs	Set up project with venv
+23	Jupyter Notebooks	🌐 Jupyter Tutorial	2 hrs	Create first notebook
+24	VS Code Mastery	🌐 VS Code Python	2 hrs	Extensions, debugging
+25	Command Line	🌐 Linux CLI Basics	2 hrs	Essential commands
+26	Python Best Practices	🎥 Corey Schafer - PEP8	2 hrs	Code formatting
+27	Review & Practice	HackerRank	4 hrs	Solve 20 more problems
+28	Project: CLI Todo App	Practice	5 hrs	Complete app with argparse
+29	Portfolio Update	GitHub	3 hrs	Polish all repos, READMEs
+30	Month 1 Assessment	Self-review	3 hrs	Review all topics, identify gaps
+📦 Month 1 Deliverables:
+Code
+✅ GitHub profile with 5+ repositories
+✅ 4 Python projects (Contact Manager, Library System, Quiz Game, Todo App)
+✅ 50+ HackerRank problems solved
+✅ Comfortable with OOP, Git, command line
+MONTH 2: MATHEMATICS FOR ML
+Week 5: Linear Algebra
+Day	Topic	Resource	Duration	Action
+31	Vectors	🎥 3Blue1Brown Linear Algebra Ep 1-2	2 hrs	Watch twice, take notes
+32	Linear Combinations & Span	🎥 3Blue1Brown Ep 3	1. 5 hrs	Visualize concepts
+33	Linear Transformations	🎥 3Blue1Brown Ep 4-5	2 hrs	Key for understanding NNs
+34	Matrix Multiplication	🎥 3Blue1Brown Ep 6-7	2 hrs	Critical - understand deeply
+35	Determinants	🎥 3Blue1Brown Ep 8	1.5 hrs	Geometric interpretation
+36	Inverse Matrices, Rank	🎥 3Blue1Brown Ep 9-10	2 hrs	When solutions exist
+37	Eigenvectors & Eigenvalues	🎥 3Blue1Brown Ep 11-14	3 hrs	Used in PCA, PageRank
+Week 6: Linear Algebra in NumPy + Calculus
+Day	Topic	Resource	Duration	Action
+38	NumPy Fundamentals	🌐 NumPy Quickstart	3 hrs	Arrays, operations
+39	NumPy Linear Algebra	Practice	3 hrs	Implement matrix operations
+40	Calculus: Derivatives	🎥 3Blue1Brown Calculus Ep 1-2	2 hrs	Intuition first
+41	Derivative Rules	🎥 3Blue1Brown Calculus Ep 3-4	2 hrs	Power, product, quotient
+42	Chain Rule	🎥 3Blue1Brown Calculus Ep 5	2 hrs	**Essential for backprop! **
+43	Partial Derivatives	🎥 Khan Academy Multivariable	2 hrs	Gradients
+44	Gradient Descent	🎥 [StatQuest - Gradient Descent](https://youtube.com/watch? v=sDv4f4s2SB8)	2 hrs	Foundation of ML training
+Week 7: Probability & Statistics
+Day	Topic	Resource	Duration	Action
+45	Reading: Stats Intuition	📘 Naked Statistics Ch 1-4	3 hrs	Light reading, big picture
+46	Probability Basics	🎥 StatQuest - Probability	2 hrs	Conditional probability
+47	Bayes' Theorem	🎥 3Blue1Brown - Bayes	2 hrs	Critical for ML
+48	Distributions	🎥 StatQuest - Normal Distribution	2 hrs	Gaussian, key for ML
+49	Central Limit Theorem	🎥 StatQuest	2 hrs	Why normal dist. matters
+50	Hypothesis Testing	🎥 [StatQuest - Hypothesis Testing](https://youtube.com/watch? v=0oc49DyA3hU)	2 hrs	p-values, significance
+51	Reading: More Stats	📘 Naked Statistics Ch 5-8	3 hrs	Correlation, regression
+Week 8: Math Practice + First ML Implementation
+Day	Topic	Resource	Duration	Action
+52	Covariance & Correlation	🎥 StatQuest	2 hrs	Statistical relationships
+53	Maximum Likelihood	🎥 [StatQuest - MLE](https://youtube.com/watch? v=XepXtl9YKwc)	2 hrs	Foundation of many ML algorithms
+54	NumPy Statistics Practice	Practice	3 hrs	Implement stats from scratch
+55	Math Review	Notes	3 hrs	Create summary sheet
+56	Project: Linear Regression from Scratch	Practice	4 hrs	Using only NumPy
+57	Continue Linear Regression	Practice	4 hrs	Add gradient descent
+58	Test & Visualize Results	Practice	3 hrs	Matplotlib plots
+59	Clean Code & Document	GitHub	3 hrs	Push with great README
+60	Month 2 Assessment	Self-review	3 hrs	Can you explain all concepts?
+📦 Month 2 Deliverables:
+Code
+✅ Linear Regression from scratch (NumPy only)
+✅ Math notes for future reference
+✅ Understanding of linear algebra, calculus, probability
+✅ Intuition for gradient descent
+MONTH 3: DATA ANALYSIS & VISUALIZATION
+Week 9: Pandas Mastery
+Day	Topic	Resource	Duration	Action
+61	Pandas: DataFrames	🌐 Kaggle Pandas Course Lesson 1-2	3 hrs	Complete exercises
+62	Indexing & Selecting	🌐 Kaggle Pandas Lesson 3	2 hrs	Master . loc, .iloc
+63	Summary Functions	🌐 Kaggle Pandas Lesson 4	2 hrs	describe(), value_counts()
+64	GroupBy & Aggregation	🌐 Kaggle Pandas Lesson 5	3 hrs	Very important
+65	Data Types & Missing Values	🌐 Kaggle Pandas Lesson 6	2 hrs	Handling NaN
+66	Combining DataFrames	🌐 Kaggle Pandas Lesson 7	2 hrs	merge, join, concat
+67	Practice: Explore Dataset	🌐 Kaggle Titanic	4 hrs	Apply all learned
+Week 10: Data Cleaning
+Day	Topic	Resource	Duration	Action
+68	Handling Missing Data	🌐 Kaggle Data Cleaning Lesson 1-2	3 hrs	Strategies for NaN
+69	Scaling & Normalization	🌐 Kaggle Data Cleaning Lesson 3	2 hrs	StandardScaler, MinMax
+70	Parsing Dates	🌐 Kaggle Data Cleaning Lesson 4	2 hrs	DateTime handling
+71	Character Encoding	🌐 Kaggle Data Cleaning Lesson 5	2 hrs	UTF-8 issues
+72	Inconsistent Data Entry	🌐 Kaggle Data Cleaning Lesson 6	2 hrs	String matching
+73	Advanced Pandas	🎥 [Corey Schafer Pandas](https://youtube.com/playlist? list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) Videos 1-5	3 hrs	Real-world techniques
+74	Practice: Clean Messy Dataset	Kaggle	4 hrs	Apply all techniques
+Week 11: Data Visualization
+Day	Topic	Resource	Duration	Action
+75	Matplotlib Fundamentals	🎥 [Corey Schafer Matplotlib](https://youtube.com/playlist? list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_) Videos 1-3	3 hrs	Line, bar, scatter
+76	Matplotlib Advanced	🎥 Corey Schafer Matplotlib Videos 4-6	2 hrs	Subplots, styling
+77	Seaborn	🌐 Kaggle Data Viz All lessons	4 hrs	Statistical plots
+78	Seaborn Advanced	🌐 [Seaborn Tutorial](https://seaborn.pydata. org/tutorial. html)	3 hrs	Heatmaps, pair plots
+79	Plotly Interactive	🌐 Plotly Python	3 hrs	Interactive charts
+80	Practice: Visualization Dashboard	Practice	4 hrs	Multiple plot types
+81	Push to GitHub	GitHub	2 hrs	Create viz portfolio piece
+Week 12: SQL + EDA Project
+Day	Topic	Resource	Duration	Action
+82	SQL Basics	🌐 SQLBolt Lessons 1-6	3 hrs	SELECT, WHERE, JOINs
+83	SQL Aggregations	🌐 SQLBolt Lessons 7-12	2 hrs	GROUP BY, HAVING
+84	SQL with Python	🌐 Kaggle SQL Course	3 hrs	BigQuery basics
+85	EDA PROJECT START	🌐 House Prices Dataset	4 hrs	Choose dataset, start exploring
+86	EDA: Data Cleaning	Project	4 hrs	Clean and preprocess
+87	EDA: Visualization	Project	4 hrs	Create insights
+88	EDA: Statistical Analysis	Project	4 hrs	Correlations, distributions
+89	EDA: Write Report	Project	4 hrs	Create Kaggle notebook
+90	Publish & Review	Kaggle + GitHub	4 hrs	Make notebook public
+📦 Month 3 Deliverables:
+Code
+✅ Published Kaggle EDA notebook (aim for 10+ upvotes)
+✅ GitHub repo with clean code
+✅ SQL basics mastered
+✅ Data analysis workflow established
+🤖 PHASE 2: MACHINE LEARNING (Months 4-6)
+MONTH 4: ML FUNDAMENTALS
+Week 13: Introduction to ML
+Day	Topic	Resource	Duration	Action
+91	What is Machine Learning?	📘 Hands-On ML Ch 1 (pgs 1-30)	3 hrs	Read carefully, take notes
+92	Types of ML Systems	📘 Hands-On ML Ch 1 (pgs 30-50)	3 hrs	Supervised, unsupervised, RL
+93	Main Challenges of ML	📘 Hands-On ML Ch 1 (finish)	2 hrs	Overfitting, underfitting
+94	End-to-End Project Start	📘 Hands-On ML Ch 2 (pgs 51-70)	4 hrs	Most important chapter
+95	Data Exploration	📘 Hands-On ML Ch 2 (pgs 70-90)	3 hrs	Follow along with code
+96	Data Preparation	📘 Hands-On ML Ch 2 (pgs 90-110)	3 hrs	Pipelines, transformers
+97	Model Training & Evaluation	📘 Hands-On ML Ch 2 (finish)	4 hrs	Complete the project
+Week 14: Classification
+Day	Topic	Resource	Duration	Action
+98	Classification Intro	📘 Hands-On ML Ch 3 (pgs 1-20)	3 hrs	MNIST dataset
+99	Performance Measures	📘 Hands-On ML Ch 3 (pgs 20-40)	3 hrs	Confusion matrix, precision, recall
+100	Confusion Matrix Deep Dive	🎥 StatQuest - Confusion Matrix	2 hrs	Visual understanding
+101	ROC & AUC	🎥 StatQuest - ROC & AUC	2 hrs	When to use which metric
+102	Multiclass Classification	📘 Hands-On ML Ch 3 (finish)	3 hrs	OvA, OvO strategies
+103	Practice: Titanic Classification	Kaggle Titanic	4 hrs	Apply Ch 2-3 techniques
+104	Submit to Kaggle	Kaggle	4 hrs	Aim for top 50%
+Week 15: Training Models
+Day	Topic	Resource	Duration	Action
+105	Linear Regression	📘 Hands-On ML Ch 4 (pgs 1-20)	3 hrs	Normal equation, complexity
+106	Gradient Descent	📘 Hands-On ML Ch 4 (pgs 20-40)	3 hrs	Batch, stochastic, mini-batch
+107	Polynomial Regression	📘 Hands-On ML Ch 4 (pgs 40-50)	2 hrs	Learning curves
+108	Regularization	📘 Hands-On ML Ch 4 (pgs 50-70)	3 hrs	Ridge, Lasso, Elastic Net
+109	Regularization Visual	🎥 StatQuest - Ridge + [Lasso](https://youtube.com/watch? v=NGf0voTMlcs)	2 hrs	Visual intuition
+110	Logistic Regression	📘 Hands-On ML Ch 4 (finish)	3 hrs	Softmax regression
+111	Practice: House Prices	Kaggle House Prices	4 hrs	Regression with regularization
+Week 16: SVMs & Trees
+Day	Topic	Resource	Duration	Action
+112	Support Vector Machines	📘 Hands-On ML Ch 5 (full)	4 hrs	Linear, nonlinear, SVM regression
+113	SVM Visual	🎥 StatQuest - SVM	2 hrs	Kernel trick explained
+114	Decision Trees	📘 Hands-On ML Ch 6 (full)	4 hrs	Training, visualizing, regularizing
+115	Decision Trees Visual	🎥 StatQuest - Decision Trees	2 hrs	How splits work
+116	Cross Validation	🎥 [StatQuest - Cross Validation](https://youtube.com/watch? v=fSytzGwwBVw)	2 hrs	K-fold, stratified
+117	Practice: Improve Kaggle Submissions	Kaggle	4 hrs	Apply new techniques
+118	Month Review	Review	3 hrs	Consolidate learning
+119	ISLR Reading	📘 ISLR Ch 1-3 (free online)	4 hrs	Theory complement
+120	Month 4 Assessment	Self-review	3 hrs	Can you explain all algorithms?
+📦 Month 4 Deliverables:
+Code
+✅ Titanic submission (top 30%)
+✅ House Prices submission (top 40%)
+✅ Understanding of 8+ ML algorithms
+✅ Hands-On ML Ch 1-6 completed
+MONTH 5: ADVANCED ML & ENSEMBLES
+Week 17: Ensemble Methods
+Day	Topic	Resource	Duration	Action
+121	Ensemble Learning	📘 Hands-On ML Ch 7 (pgs 1-20)	3 hrs	Voting classifiers
+122	Bagging & Random Forests	📘 Hands-On ML Ch 7 (pgs 20-35)	3 hrs	Out-of-bag evaluation
+123	Random Forests Visual	🎥 StatQuest - Random Forests	2 hrs	Why they work
+124	Boosting	📘 Hands-On ML Ch 7 (pgs 35-50)	3 hrs	AdaBoost, Gradient Boosting
+125	Gradient Boosting Visual	🎥 StatQuest - Gradient Boost	2 hrs	Step by step
+126	XGBoost	🎥 StatQuest - XGBoost + Practice	4 hrs	Most used algorithm
+127	Stacking	📘 Hands-On ML Ch 7 (finish)	2 hrs	Blending models
+Week 18: Dimensionality Reduction & Unsupervised
+Day	Topic	Resource	Duration	Action
+128	Dimensionality Reduction	📘 Hands-On ML Ch 8 (pgs 1-20)	3 hrs	Curse of dimensionality
+129	PCA	📘 Hands-On ML Ch 8 (pgs 20-40)	3 hrs	Principal components
+130	PCA Visual	🎥 StatQuest - PCA	2 hrs	Best PCA explanation
+131	t-SNE & UMAP	🎥 StatQuest - t-SNE	2 hrs	Visualization techniques
+132	Unsupervised Learning	📘 Hands-On ML Ch 9 (pgs 1-30)	4 hrs	K-Means clustering
+133	K-Means Visual	🎥 StatQuest - K-Means	2 hrs	How it works
+134	Other Clustering	📘 Hands-On ML Ch 9 (finish)	3 hrs	DBSCAN, GMM
+Week 19: Scikit-learn Mastery
+Day	Topic	Resource	Duration	Action
+135	Pipelines Deep Dive	🌐 Sklearn Pipelines	3 hrs	Build robust pipelines
+136	ColumnTransformer	Practice	3 hrs	Mixed data types
+137	GridSearchCV & RandomizedSearchCV	🌐 [Sklearn Model Selection](https://scikit-learn.org/stable/modules/grid_search. html)	3 hrs	Hyperparameter tuning
+138	Optuna for Tuning	🌐 Optuna Tutorial	3 hrs	Modern tuning library
+139	Feature Selection	🌐 Sklearn Feature Selection	3 hrs	Select best features
+140	Imbalanced Data	🌐 [Imbalanced-learn](https://imbalanced-learn. org/)	3 hrs	SMOTE, undersampling
+141	Practice: Build Complete Pipeline	Practice	4 hrs	Full ML pipeline project
+Week 20: Kaggle Competition
+Day	Topic	Resource	Duration	Action
+142	Choose Competition	🌐 Kaggle Competitions	2 hrs	Active tabular competition
+143	EDA	Competition	4 hrs	Deep exploration
+144	Baseline Model	Competition	4 hrs	Quick first submission
+145	Feature Engineering	Competition	4 hrs	Create new features
+146	Advanced Models	Competition	4 hrs	XGBoost, LightGBM
+147	Ensembling	Competition	4 hrs	Blend models
+148	Final Submission	Competition	4 hrs	Best possible score
+149	Write Solution	Kaggle	3 hrs	Document your approach
+150	Month 5 Review	Review + GitHub	4 hrs	Update portfolio
+📦 Month 5 Deliverables:
+Code
+✅ Kaggle competition (aim for bronze medal / top 20%)
+✅ Complete ML pipeline project
+✅ Hands-On ML Part 1 complete (Ch 1-9)
+✅ XGBoost/LightGBM expertise
+MONTH 6: ML ENGINEERING & DEPLOYMENT
+Week 21: APIs for ML
+Day	Topic	Resource	Duration	Action
+151	REST API Concepts	🌐 RESTful API Tutorial	2 hrs	HTTP methods, endpoints
+152	FastAPI Introduction	🌐 [FastAPI Official Tutorial](https://fastapi.tiangolo. com/tutorial/)	3 hrs	First API
+153	FastAPI: Path & Query Params	🌐 FastAPI Tutorial	3 hrs	Request handling
+154	FastAPI: Pydantic Models	🌐 FastAPI Tutorial	3 hrs	Data validation
+155	Serving ML Model	🎥 [ML Deployment Tutorial](https://youtube.com/watch? v=h5wLuVDr0oc)	4 hrs	Model as API
+156	Practice: Deploy Classification Model	Practice	4 hrs	Full API for Titanic model
+157	Testing APIs	🌐 FastAPI Testing Docs	3 hrs	pytest for APIs
+Week 22: Docker
+Day	Topic	Resource	Duration	Action
+158	Docker Concepts	🌐 Docker Getting Started Part 1-2	3 hrs	Containers vs VMs
+159	Dockerfile	🌐 Docker Getting Started Part 3-4	3 hrs	Build images
+160	Docker Compose	🌐 Docker Getting Started Part 5-6	3 hrs	Multi-container apps
+161	Docker for Python	Practice	3 hrs	Containerize Python app
+162	Containerize ML API	Practice	4 hrs	Docker + FastAPI + Model
+163	Docker Best Practices	🌐 Docker Docs	2 hrs	Multi-stage builds
+164	Push to Docker Hub	Docker Hub	2 hrs	Share your image
+Week 23: Cloud Deployment
+Day	Topic	Resource	Duration	Action
+165	Cloud Overview	🌐 AWS Cloud Practitioner	3 hrs	Cloud concepts
+166	AWS EC2 Basics	AWS Free Tier	3 hrs	Launch instance
+167	Deploy Docker to EC2	Practice	4 hrs	Run container on cloud
+168	AWS S3 for Data	AWS Free Tier	2 hrs	Store datasets
+169	Alternative: Railway/Render	🌐 Railway	3 hrs	Easier deployment
+170	Deploy ML API to Cloud	Practice	4 hrs	Public endpoint
+171	Cost Management	AWS Console	2 hrs	Set billing alerts
+Week 24: End-to-End ML Project
+Day	Topic	Resource	Duration	Action
+172	PROJECT: Plan System	Design	3 hrs	Choose problem, design architecture
+173	Data Pipeline	Build	4 hrs	Collection, cleaning, storage
+174	Feature Engineering	Build	4 hrs	Create robust features
+175	Model Training	Build	4 hrs	Train, tune, evaluate
+176	Build API	Build	4 hrs	FastAPI service
+177	Containerize	Build	3 hrs	Docker image
+178	Deploy	Deploy	4 hrs	Cloud deployment
+179	Add Streamlit Frontend	🌐 Streamlit Docs	4 hrs	User interface
+180	Documentation & GitHub	Finalize	4 hrs	Great README, demo
+📦 Month 6 Deliverables:
+Code
+✅ Deployed ML application (accessible via URL)
+✅ Docker expertise
+✅ Cloud deployment experience
+✅ End-to-end project in portfolio
+🧠 PHASE 3: DEEP LEARNING & LLMs (Months 7-9)
+MONTH 7: DEEP LEARNING FOUNDATIONS
+Week 25: Neural Network Fundamentals
+Day	Topic	Resource	Duration	Action
+181	What are Neural Networks?	🎥 3Blue1Brown Neural Networks Ep 1	2 hrs	Visual intuition
+182	Gradient Descent for NNs	🎥 3Blue1Brown NN Ep 2	2 hrs	How learning works
+183	Backpropagation	🎥 3Blue1Brown NN Ep 3-4	3 hrs	Critical concept
+184	Intro to Deep Learning	📘 Deep Learning with Python Ch 1-2	4 hrs	Math building blocks
+185	Your First Neural Network	📘 Deep Learning with Python Ch 3	4 hrs	Keras basics
+186	Getting Started with NNs	📘 Deep Learning with Python Ch 4	4 hrs	Classification, regression
+187	Practice: MNIST from Scratch	Practice (NumPy only)	5 hrs	Implement NN without frameworks
+Week 26: PyTorch Fundamentals
+Day	Topic	Resource	Duration	Action
+188	Why PyTorch?	🌐 PyTorch Official Tutorial	2 hrs	PyTorch vs TensorFlow
+189	Tensors	🌐 PyTorch Tutorial - Tensors	3 hrs	Core data structure
+190	Autograd	🌐 PyTorch Tutorial - Autograd	3 hrs	Automatic differentiation
+191	Building NNs (nn.Module)	🌐 PyTorch Tutorial - Build Model	3 hrs	Define architectures
+192	Training Loop	🌐 PyTorch Tutorial - Optimization	3 hrs	Forward, backward, update
+193	Datasets & DataLoaders	🌐 PyTorch Tutorial - Data	3 hrs	Efficient data loading
+194	Practice: MNIST with PyTorch	Practice	4 hrs	99%+ accuracy goal
+Week 27: Deep Learning Techniques
+Day	Topic	Resource	Duration	Action
+195	Fundamentals of ML	📘 Deep Learning with Python Ch 5	4 hrs	Generalization, overfitting
+196	Universal Workflow	📘 Deep Learning with Python Ch 6	3 hrs	Best practices
+197	Activation Functions	🎥 StatQuest - ReLU	2 hrs	ReLU, Leaky ReLU, etc.
+198	Batch Normalization	🎥 StatQuest - BatchNorm	2 hrs	Stabilize training
+199	Dropout	🎥 StatQuest - Dropout	2 hrs	Regularization
+200	Optimizers (Adam, SGD)	🎥 StatQuest - Adam	2 hrs	Which to use when
+201	Practice: Improve MNIST	Practice	4 hrs	Apply techniques, beat 99.5%
+Week 28: Convolutional Neural Networks
+Day	Topic	Resource	Duration	Action
+202	Intro to CNNs	📘 Deep Learning with Python Ch 8	4 hrs	Convolutions explained
+203	CNN Architectures	📘 Deep Learning with Python Ch 9	4 hrs	VGG, ResNet basics
+204	Transfer Learning	🌐 PyTorch Transfer Learning	3 hrs	Use pretrained models
+205	Data Augmentation	Practice	3 hrs	torchvision transforms
+206	PROJECT: Image Classification	🌐 CIFAR-10	4 hrs	Build CNN from scratch
+207	Continue Project	Project	4 hrs	Add transfer learning
+208	Finish & Document	Project + GitHub	4 hrs	Push with demo
+209	Fast. ai Lesson 1	🎥 Fast. ai Course Lesson 1	2 hrs	Alternative perspective
+210	Month 7 Review	Review	3 hrs	Consolidate DL knowledge
+📦 Month 7 Deliverables:
+Code
+✅ Neural Network from scratch (NumPy)
+✅ MNIST 99.5%+ with PyTorch
+✅ CIFAR-10 Image Classification project
+✅ Deep Learning with Python Ch 1-9 complete
+MONTH 8: NLP & TRANSFORMERS
+Week 29: Advanced Computer Vision
+Day	Topic	Resource	Duration	Action
+211	Advanced CNN	📘 Deep Learning with Python Ch 9-10	4 hrs	Modern architectures
+212	Object Detection Concepts	🎥 Aladdin Persson YOLO	3 hrs	YOLO overview
+213	YOLOv8 with Ultralytics	🌐 [Ultralytics Docs](https://docs.ultralytics. com/)	4 hrs	Practical object detection
+214	Practice: Object Detection Project	Practice	4 hrs	Custom dataset
+215	Image Segmentation	📘 Deep Learning with Python Ch 10	3 hrs	U-Net basics
+216	Continue Detection Project	Project	4 hrs	Train and evaluate
+217	Deploy CV Model	Project	4 hrs	Gradio interface
+Week 30: NLP Fundamentals
+Day	Topic	Resource	Duration	Action
+218	NLP Overview	📘 Deep Learning with Python Ch 11 (part 1)	3 hrs	Text as data
+219	Text Preprocessing	🌐 Hugging Face NLP Course Ch 1	3 hrs	Tokenization
+220	Tokenizers Deep Dive	🌐 Hugging Face NLP Ch 2	3 hrs	BPE, WordPiece
+221	Word Embeddings	🎥 [StatQuest - Word2Vec](https://youtube.com/watch? v=viZrOnJclY0)	2 hrs	Word vectors
+222	RNN & LSTM	🎥 [StatQuest - RNN](https://youtube.com/watch? v=AsNTP8Kwu80)	3 hrs	Sequence modeling
+223	Text Classification with RNN	📘 Deep Learning with Python Ch 11	4 hrs	Sentiment analysis
+224	Practice: Sentiment Analysis	🌐 IMDB Dataset	4 hrs	Build classifier
+Week 31: Transformers
+Day	Topic	Resource	Duration	Action
+225	Attention Mechanism	🌐 [Illustrated Transformer](https://jalammar.github. io/illustrated-transformer/)	3 hrs	Best explanation
+226	Attention Visual	🎥 [3Blue1Brown - Attention](https://youtube.com/watch? v=eMlx5fFNoYc)	2 hrs	Visual intuition
+227	Transformer Architecture	📘 Deep Learning with Python Ch 11 (transformers)	4 hrs	Encoder, decoder
+228	Using Transformers Library	🌐 Hugging Face NLP Ch 3	3 hrs	Pipeline API
+229	Fine-tuning Models	🌐 Hugging Face NLP Ch 4-5	4 hrs	Fine-tune BERT
+230	Practice: Text Classification with BERT	Practice	4 hrs	Hugging Face workflow
+231	BERT vs GPT	🌐 [Illustrated BERT](https://jalammar.github. io/illustrated-bert/)	2 hrs	Encoder vs decoder
+Week 32: NLP Project
+Day	Topic	Resource	Duration	Action
+232	Named Entity Recognition	🌐 Hugging Face NLP Ch 7	3 hrs	Token classification
+233	Question Answering	🌐 Hugging Face NLP Ch 7	3 hrs	Extractive QA
+234	PROJECT: NLP Application	Design	3 hrs	Choose: Chatbot, Summarizer, or NER
+235	Project: Data & Preprocessing	Build	4 hrs	Prepare dataset
+236	Project: Model Training	Build	4 hrs	Fine-tune transformer
+237	Project: Evaluation	Build	4 hrs	Metrics and analysis
+238	Project: Gradio Interface	🌐 Gradio Docs	4 hrs	User interface
+239	Arabic NLP Exploration	🌐 AraGPT2	3 hrs	MENA opportunity
+240	Deploy & Document	GitHub + Hugging Face Spaces	4 hrs	Public demo
+📦 Month 8 Deliverables:
+Code
+✅ Object Detection project
+✅ Sentiment Analysis with BERT
+✅ NLP Application (deployed on HF Spaces)
+✅ Transformer architecture understanding
+MONTH 9: LARGE LANGUAGE MODELS
+Week 33: LLM Fundamentals
+Day	Topic	Resource	Duration	Action
+241	LLM Overview	🌐 Cohere LLM University Module 1	3 hrs	What are LLMs
+242	How LLMs Work	🌐 Cohere LLM University Module 2	3 hrs	Training, inference
+243	OpenAI API Setup	🌐 OpenAI Quickstart	3 hrs	API basics
+244	Chat Completions	🌐 OpenAI API Docs	3 hrs	Conversations
+245	Prompt Engineering	🌐 OpenAI Prompt Guide	4 hrs	Critical skill
+246	Advanced Prompting	🌐 Prompt Engineering Guide	3 hrs	Few-shot, Chain of Thought
+247	Practice: CLI Chatbot	Practice	4 hrs	Build with OpenAI API
+Week 34: LangChain
+Day	Topic	Resource	Duration	Action
+248	LangChain Introduction	🌐 LangChain Quickstart	3 hrs	Why LangChain
+249	LLMs & Chat Models	🌐 LangChain Docs	3 hrs	Model abstraction
+250	Prompts & Output Parsers	🌐 LangChain Docs	3 hrs	Structured outputs
+251	Chains (LCEL)	🌐 LangChain Docs	4 hrs	Composing operations
+252	Memory	🌐 LangChain Docs	3 hrs	Conversation history
+253	Agents & Tools	🌐 LangChain Docs	4 hrs	LLMs with actions
+254	Practice: Conversational Agent	Practice	4 hrs	Agent with tools
+Week 35: RAG (Retrieval-Augmented Generation)
+Day	Topic	Resource	Duration	Action
+255	RAG Concepts	🌐 LangChain RAG Tutorial	3 hrs	Why RAG matters
+256	Document Loaders	🌐 LangChain Docs	2 hrs	Load various formats
+257	Text Splitters	🌐 LangChain Docs	2 hrs	Chunking strategies
+258	Embeddings	🌐 LangChain + OpenAI	3 hrs	Vector representations
+259	Vector Stores	🌐 ChromaDB	4 hrs	Store and search
+260	Building RAG Pipeline	Practice	4 hrs	End-to-end RAG
+261	Practice: Document Q&A	Practice	4 hrs	Chat with your PDFs
+Week 36: LLM Project + Fine-tuning
+Day	Topic	Resource	Duration	Action
+262	Fine-tuning Concepts	📘 Build LLM from Scratch Ch 6-7	4 hrs	When and why
+263	LoRA & QLoRA	🌐 [Hugging Face PEFT](https://huggingface. co/docs/peft)	3 hrs	Efficient fine-tuning
+264	Practice Fine-tuning	Practice	4 hrs	Fine-tune small model
+265	PROJECT: Full LLM App	Design	3 hrs	RAG-based application
+266	Project: Backend	Build	4 hrs	FastAPI + LangChain
+267	Project: RAG Implementation	Build	4 hrs	Vector store, retrieval
+268	Project: Frontend	Build (Streamlit)	4 hrs	User interface
+269	Project: Deploy	Deploy	4 hrs	Cloud deployment
+270	Document & Review	GitHub	4 hrs	Portfolio piece
+📦 Month 9 Deliverables:
+Code
+✅ LLM-powered application (deployed)
+✅ RAG system with document Q&A
+✅ LangChain proficiency
+✅ Understanding of fine-tuning
+⚙️ PHASE 4: PRODUCTION & JOB SEARCH (Months 10-12)
+MONTH 10: MLOps
+Week 37: Experiment Tracking
+Day	Topic	Resource	Duration	Action
+271	MLOps Overview	🌐 Made With ML - MLOps	4 hrs	Full picture
+272	ML Lifecycle	📘 Designing ML Systems Ch 1-2	4 hrs	Start this critical book
+273	MLflow Setup	🌐 MLflow Tutorial	4 hrs	Experiment tracking
+274	MLflow: Logging & Registry	🌐 MLflow Docs	3 hrs	Model versioning
+275	Weights & Biases	🌐 W&B Quickstart	3 hrs	Alternative tracking
+276	W&B: Sweeps	🌐 W&B Docs	3 hrs	Hyperparameter search
+277	Practice: Add Tracking	Practice	4 hrs	Add to previous project
+Week 38: Data Management
+Day	Topic	Resource	Duration	Action
+278	Training Data	📘 Designing ML Systems Ch 4	4 hrs	Sampling, labeling
+279	Feature Engineering	📘 Designing ML Systems Ch 5	4 hrs	Feature stores
+280	DVC (Data Version Control)	🌐 DVC Tutorial	4 hrs	Version data & models
+281	DVC Pipelines	🌐 DVC Docs	3 hrs	Reproducible workflows
+282	Data Validation	🌐 Great Expectations	3 hrs	Data quality
+283	Feature Stores Concepts	🌐 Feast	3 hrs	Feature management
+284	Practice: DVC Pipeline	Practice	4 hrs	Version your ML project
+Week 39: CI/CD for ML
+Day	Topic	Resource	Duration	Action
+285	Model Deployment	📘 Designing ML Systems Ch 7	4 hrs	Deployment patterns
+286	GitHub Actions	🌐 GitHub Actions Tutorial	3 hrs	CI/CD basics
+287	Testing ML Code	🌐 pytest Docs	3 hrs	Unit tests for ML
+288	CI Pipeline	Practice	4 hrs	Lint, test, build
+289	CD Pipeline	Practice	4 hrs	Auto-deploy on merge
+290	Model Validation in CI	Practice	3 hrs	Performance checks
+291	Practice: Full CI/CD	Practice	4 hrs	Complete pipeline
+Week 40: Monitoring & Production
+Day	Topic	Resource	Duration	Action
+292	Data Distribution Shifts	📘 Designing ML Systems Ch 8	4 hrs	Critical chapter
+293	Monitoring ML Models	📘 Designing ML Systems Ch 8-9	4 hrs	What to monitor
+294	Evidently AI	🌐 Evidently	3 hrs	Drift detection
+295	Model Serving	🌐 [BentoML](https://docs.bentoml. com/)	3 hrs	Serving at scale
+296	MLOps PROJECT	Build	4 hrs	Production ML system
+297	Continue Project	Build	4 hrs	Add monitoring
+298	Finish Project	Build	4 hrs	Complete system
+299	Infrastructure Overview	📘 Designing ML Systems Ch 10-11	3 hrs	Finish book
+300	Month 10 Review	Review + GitHub	4 hrs	Update portfolio
+📦 Month 10 Deliverables:
+Code
+✅ MLOps project with tracking, versioning, CI/CD
+✅ Designing ML Systems book complete
+✅ Experience with MLflow/W&B, DVC, GitHub Actions
+✅ Understanding of production ML challenges
+MONTH 11: INTERVIEW PREPARATION
+Week 41: Resume & Portfolio
+Day	Topic	Resource	Duration	Action
+301	Resume Writing	🌐 Resume Templates	4 hrs	ATS-friendly format
+302	LinkedIn Optimization	LinkedIn	3 hrs	Complete profile, keywords
+303	Portfolio Website	🌐 GitHub Pages	4 hrs	Optional but impressive
+304	GitHub Profile Polish	GitHub	3 hrs	Great READMEs, pinned repos
+305	Technical Blog Post 1	🌐 Medium or Dev.to	4 hrs	Share knowledge
+306	Technical Blog Post 2	Blog	4 hrs	Another post
+307	Network	LinkedIn	3 hrs	Connect with 30 people
+Week 42: Coding Interviews
+Day	Topic	Resource	Duration	Action
+308	Arrays & Hashing	🌐 NeetCode Roadmap	4 hrs	8 problems
+309	Two Pointers	🌐 NeetCode	4 hrs	6 problems
+310	Sliding Window	🌐 NeetCode	4 hrs	6 problems
+311	Stack	🌐 NeetCode	4 hrs	6 problems
+312	Binary Search	🌐 NeetCode	4 hrs	6 problems
+313	Trees Basics	🌐 NeetCode	4 hrs	8 problems
+314	Review & Practice	LeetCode	4 hrs	Mixed problems
+Week 43: ML Theory Interviews
+Day	Topic	Resource	Duration	Action
+315	ML Fundamentals Review	📘 ML Interviews Book (Chip Huyen) Ch 1-3	4 hrs	Start this free book
+316	ML Questions Practice	📘 ML Interviews Book	4 hrs	30 questions
+317	Deep Learning Questions	📘 ML Interviews Book Ch 4-5	4 hrs	DL interview prep
+318	More DL Questions	Practice	4 hrs	30 more questions
+319	NLP/CV Questions	Practice	4 hrs	Specialized questions
+320	LLM Questions	Practice	4 hrs	Modern AI questions
+321	Mock Interview: ML	Self-record or friend	3 hrs	Practice explaining
+Week 44: System Design & Behavioral
+Day	Topic	Resource	Duration	Action
+322	ML System Design Intro	📘 ML Interviews Book Ch 8	4 hrs	Framework
+323	Design: Recommendation System	Practice	4 hrs	Common question
+324	Design: Search Ranking	Practice	4 hrs	Common question
+325	Design: Fraud Detection	Practice	4 hrs	Common question
+326	Behavioral: STAR Method	🌐 Amazon Leadership Principles	3 hrs	Prepare stories
+327	Behavioral: Prepare Stories	Practice	4 hrs	10 stories ready
+328	Mock: System Design	Self-record	3 hrs	Practice
+329	Mock: Behavioral	Self-record	3 hrs	Practice
+330	Month 11 Review	Review	4 hrs	Ready for interviews!
+📦 Month 11 Deliverables:
+Code
+✅ Polished resume
+✅ Optimized LinkedIn (500+ connections)
+✅ 50+ LeetCode problems solved
+✅ 60+ ML interview questions practiced
+✅ 3+ system design problems practiced
+✅ 10 behavioral stories ready
+MONTH 12: ACTIVE JOB SEARCH
+Week 45: Application Blitz
+Day	Activity	Target	Time
+331	Create job tracking spreadsheet	Notion/Sheets	2 hrs
+332	Apply: Wuzzuf + LinkedIn (Egypt)	10 jobs	4 hrs
+333	Apply: Remote (Turing, Wellfound)	10 jobs	4 hrs
+334	Apply + Customize resume	8 jobs	4 hrs
+335	Apply + Cold outreach	8 jobs + 5 messages	4 hrs
+336	Apply + Network	8 jobs	4 hrs
+337	Follow up on applications	All pending	3 hrs
+Week 46: Continue Applications
+Day	Activity	Target	Time
+338	Apply	5 jobs	3 hrs
+339	LeetCode practice	5 problems	3 hrs
+340	Apply	5 jobs	3 hrs
+341	ML interview practice	15 questions	3 hrs
+342	Apply	5 jobs	3 hrs
+343	System design practice	1 problem	3 hrs
+344	Apply + Network	5 jobs	3 hrs
+Week 47: Interview Rounds
+Day	Activity	Notes	Time
+345	Prep for scheduled interviews	Research companies	4 hrs
+346	Interview / Practice	Active	4 hrs
+347	Apply	5 more jobs	3 hrs
+348	Interview / Practice	Active	4 hrs
+349	Apply	5 more jobs	3 hrs
+350	Interview / Practice	Active	4 hrs
+351	Send thank you emails	All interviews	2 hrs
+Week 48: Final Push
+Day	Activity	Notes	Time
+352-358	Interviews + Applications	Continue momentum	4 hrs/day
+359	Negotiate offers	Research market rates	4 hrs
+360	**CELEBRATE! ** 🎉	You made it!	-
