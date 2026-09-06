@@ -1,6 +1,7 @@
 from ..LLMinterface import LLMInterface
 from openai import OpenAI
 import logging
+from ..LLMEnums import OpenAIEnums
 
 class OpenAIProvider(LLMInterface):
     
@@ -30,17 +31,57 @@ class OpenAIProvider(LLMInterface):
     def set_generation_model(self, model_id: str):
         self.genearation_model_id = model_id
         
-    def set_embedding_model(self, model_id, embedding_size):
+    def set_embedding_model(self, model_id: str, embedding_size: int):
         self.embedding_model_id = model_id
         self.embedding_size = embedding_size
     
-    def generate_text(self, prompt, max_output_tokens,
-                      temperature = None):
-        raise NotImplementedError
-    
-    def embed_text(self, text, document_type):
+    def generate_text(self, prompt: str, chat_history: list=[], max_output_tokens: int=None,
+                      temperature: float = None):
         
         if not self.client:
+            self.logger.error("OpenAI client was not set")
+            return None
+        
+        if not self.genearation_model_id:
+            self.logger.error("Generation model for OpenAI was not set")
+            return None
+        
+        max_output_tokens = max_output_tokens if max_output_tokens else self.default_generation_output_tokens
+        
+        temperature = temperature if temperature else self.default_generation_temperature
+        
+        chat_history.append(
+            self.construct_prompt(prompt=prompt, role=OpenAIEnums.USER.value)
+            )
+        
+    
+    def embed_text(self, text: str, document_type: str):
+        
+        if not self.client:
+            self.logger.error("OpenAI client was not set")
+            return None
+        
+        if not self.embedding_model_id:
+            self.logger.error("Embedding model for OpenAI was not set")
+            return None
+        
+        response = self.client.embeddings.create(
+            model= self.embedding_model_id,
+            input= text
+        )
+        
+        if not response or not response.data or len(response.data) == 0 or not response.data[0].embedding:
+            self.logger.error("error while embedding text with OpenAI")
+            return None
+        
+        return response.data[0].embedding
+    
+    
+    def construct_prompt(self, prompt, role):
+        return {
+            "role": role,
+            "content": prompt
+        }
             
         
         
