@@ -1,5 +1,5 @@
 from ..LLMinterface import LLMInterface
-from ..LLMEnums import CoHereEnums
+from ..LLMEnums import CoHereEnums, DocumentTybeEnum
 import cohere 
 import logging
 
@@ -81,7 +81,23 @@ class  CoHereProvider(LLMInterface):
         if not self.embedding_model_id:
             self.logger.error("Embedding model for CoHere was not set")
             return None
+        
+        input_type = CoHereEnums.Document
+        if document_type == DocumentTybeEnum.Query:
+            input_type = CoHereEnums.Query
+        
+        response = self.client.embed(
+            model = self.embedding_model_id,
+            texts = [self.process_text(text)],
+            input_type = input_type,
+            embedding_types = ['float'],
+        )
+        
+        if not response or not response.embeddings or not response.embeddings.float:
+            self.logger.error("Error while embedding text with CoHere")
+            return None
 
+        return response.embeddings.float[0]
 
     
 
